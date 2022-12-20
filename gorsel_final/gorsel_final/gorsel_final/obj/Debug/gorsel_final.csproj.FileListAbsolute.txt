@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\bin\Debug\gorsel_final.exe.config
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\bin\Debug\gorsel_final.exe
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\bin\Debug\gorsel_final.pdb
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.AnaSayfa.resources
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.Properties.Resources.resources
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.csproj.GenerateResource.cache
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.exe
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.pdb
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.Acilis.resources
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.İletişim.resources
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.Hakkımızda.resources
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.Hizmetlerimiz.resources
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.BM_PeriyodikBakım.resources
+C:\Users\User\Desktop\gorsel_programlama_2\gorsel_final\gorsel_final\gorsel_final\obj\Debug\gorsel_final.RandevuAl.resources
