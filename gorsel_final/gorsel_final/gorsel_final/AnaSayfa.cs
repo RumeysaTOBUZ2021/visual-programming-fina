@@ -12,14 +12,16 @@ namespace gorsel_final
 {
     public partial class AnaSayfa : Form
     {
+        
         public AnaSayfa()
         {
             InitializeComponent();
+
         }
 
         private void iletişimToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            İletişim iletisimekran=new İletişim();
+            Iletisim iletisimekran=new Iletisim();
             iletisimekran.Show();
         }
 
@@ -35,6 +37,8 @@ namespace gorsel_final
             label4.BackColor = Color.Transparent;
             label5.Parent = pictureBox1;
             label5.BackColor = Color.Transparent;
+
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -57,6 +61,18 @@ namespace gorsel_final
         {
             BM_PeriyodikBakım periyodikekran = new BM_PeriyodikBakım();
             periyodikekran.Show();
+        }
+
+        private void üyeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UyeEkran uyeekran = new UyeEkran();
+            uyeekran.Show();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Messaging" />
@@ -52,6 +53,12 @@
     </Compile>
     <Compile Include="Acilis.Designer.cs">
       <DependentUpon>Acilis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnaEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaEkran.Designer.cs">
+      <DependentUpon>AnaEkran.cs</DependentUpon>
     </Compile>
     <Compile Include="AnaSayfa.cs">
       <SubType>Form</SubType>
@@ -77,6 +84,12 @@
     <Compile Include="Hizmetlerimiz.Designer.cs">
       <DependentUpon>Hizmetlerimiz.cs</DependentUpon>
     </Compile>
+    <Compile Include="Iletisim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iletisim.Designer.cs">
+      <DependentUpon>Iletisim.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandevuAl.cs">
@@ -85,14 +98,23 @@
     <Compile Include="RandevuAl.Designer.cs">
       <DependentUpon>RandevuAl.cs</DependentUpon>
     </Compile>
-    <Compile Include="İletişim.cs">
+    <Compile Include="UyeEkran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="İletişim.Designer.cs">
-      <DependentUpon>İletişim.cs</DependentUpon>
+    <Compile Include="UyeEkran.Designer.cs">
+      <DependentUpon>UyeEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UyeKayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeKayıt.Designer.cs">
+      <DependentUpon>UyeKayıt.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Acilis.resx">
       <DependentUpon>Acilis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaEkran.resx">
+      <DependentUpon>AnaEkran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
@@ -105,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hizmetlerimiz.resx">
       <DependentUpon>Hizmetlerimiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iletisim.resx">
+      <DependentUpon>Iletisim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -119,8 +144,11 @@
     <EmbeddedResource Include="RandevuAl.resx">
       <DependentUpon>RandevuAl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="İletişim.resx">
-      <DependentUpon>İletişim.cs</DependentUpon>
+    <EmbeddedResource Include="UyeEkran.resx">
+      <DependentUpon>UyeEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyeKayıt.resx">
+      <DependentUpon>UyeKayıt.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

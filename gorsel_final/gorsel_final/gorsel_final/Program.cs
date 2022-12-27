@@ -16,7 +16,7 @@ namespace gorsel_final
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Acilis());
+            Application.Run(new UyeKayıt());
         }
     }
 }

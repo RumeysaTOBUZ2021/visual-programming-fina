@@ -32,23 +32,24 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.anasayfaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hizmetlerimizToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bakımVeMuayeneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.periyodikBakımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.baharBakımıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kışBakımıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aküToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.klimaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.motorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.frenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kampanyalarımızToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hakkımızddaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iletişimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uyeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.muayeneVeBakımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.periyodikBakımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kışBakımıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.baharBakımıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.klimaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.motorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.frenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lastikToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +62,8 @@
             this.hizmetlerimizToolStripMenuItem,
             this.kampanyalarımızToolStripMenuItem,
             this.hakkımızddaToolStripMenuItem,
-            this.iletişimToolStripMenuItem});
+            this.iletişimToolStripMenuItem,
+            this.uyeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -77,67 +79,14 @@
             // hizmetlerimizToolStripMenuItem
             // 
             this.hizmetlerimizToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bakımVeMuayeneToolStripMenuItem,
-            this.aküToolStripMenuItem,
+            this.muayeneVeBakımToolStripMenuItem,
             this.klimaToolStripMenuItem,
             this.motorToolStripMenuItem,
-            this.frenToolStripMenuItem});
+            this.frenToolStripMenuItem,
+            this.lastikToolStripMenuItem});
             this.hizmetlerimizToolStripMenuItem.Name = "hizmetlerimizToolStripMenuItem";
             this.hizmetlerimizToolStripMenuItem.Size = new System.Drawing.Size(116, 24);
             this.hizmetlerimizToolStripMenuItem.Text = "Hizmetlerimiz";
-            // 
-            // bakımVeMuayeneToolStripMenuItem
-            // 
-            this.bakımVeMuayeneToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.periyodikBakımToolStripMenuItem,
-            this.baharBakımıToolStripMenuItem,
-            this.kışBakımıToolStripMenuItem});
-            this.bakımVeMuayeneToolStripMenuItem.Name = "bakımVeMuayeneToolStripMenuItem";
-            this.bakımVeMuayeneToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.bakımVeMuayeneToolStripMenuItem.Text = "Bakım ve Muayene";
-            // 
-            // periyodikBakımToolStripMenuItem
-            // 
-            this.periyodikBakımToolStripMenuItem.Name = "periyodikBakımToolStripMenuItem";
-            this.periyodikBakımToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.periyodikBakımToolStripMenuItem.Text = "Periyodik Bakım";
-            this.periyodikBakımToolStripMenuItem.Click += new System.EventHandler(this.periyodikBakımToolStripMenuItem_Click);
-            // 
-            // baharBakımıToolStripMenuItem
-            // 
-            this.baharBakımıToolStripMenuItem.Name = "baharBakımıToolStripMenuItem";
-            this.baharBakımıToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
-            this.baharBakımıToolStripMenuItem.Text = "Bahar Bakımı";
-            // 
-            // kışBakımıToolStripMenuItem
-            // 
-            this.kışBakımıToolStripMenuItem.Name = "kışBakımıToolStripMenuItem";
-            this.kışBakımıToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
-            this.kışBakımıToolStripMenuItem.Text = "Kış Bakımı";
-            // 
-            // aküToolStripMenuItem
-            // 
-            this.aküToolStripMenuItem.Name = "aküToolStripMenuItem";
-            this.aküToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
-            this.aküToolStripMenuItem.Text = "Akü";
-            // 
-            // klimaToolStripMenuItem
-            // 
-            this.klimaToolStripMenuItem.Name = "klimaToolStripMenuItem";
-            this.klimaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
-            this.klimaToolStripMenuItem.Text = "Klima";
-            // 
-            // motorToolStripMenuItem
-            // 
-            this.motorToolStripMenuItem.Name = "motorToolStripMenuItem";
-            this.motorToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
-            this.motorToolStripMenuItem.Text = "Motor";
-            // 
-            // frenToolStripMenuItem
-            // 
-            this.frenToolStripMenuItem.Name = "frenToolStripMenuItem";
-            this.frenToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
-            this.frenToolStripMenuItem.Text = "Fren";
             // 
             // kampanyalarımızToolStripMenuItem
             // 
@@ -159,6 +108,13 @@
             this.iletişimToolStripMenuItem.Text = "İletişim";
             this.iletişimToolStripMenuItem.Click += new System.EventHandler(this.iletişimToolStripMenuItem_Click);
             // 
+            // uyeToolStripMenuItem
+            // 
+            this.uyeToolStripMenuItem.Name = "uyeToolStripMenuItem";
+            this.uyeToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
+            this.uyeToolStripMenuItem.Text = "Uye";
+            this.uyeToolStripMenuItem.Click += new System.EventHandler(this.üyeToolStripMenuItem_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -167,9 +123,10 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(66, 128);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 38);
+            this.label1.Size = new System.Drawing.Size(161, 38);
             this.label1.TabIndex = 2;
-            this.label1.Text = "firma ismi";
+            this.label1.Text = "ERACAR";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -231,6 +188,58 @@
             this.pictureBox1.VisibleChanged += new System.EventHandler(this.iletişimToolStripMenuItem_Click);
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // muayeneVeBakımToolStripMenuItem
+            // 
+            this.muayeneVeBakımToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.periyodikBakımToolStripMenuItem,
+            this.kışBakımıToolStripMenuItem,
+            this.baharBakımıToolStripMenuItem});
+            this.muayeneVeBakımToolStripMenuItem.Name = "muayeneVeBakımToolStripMenuItem";
+            this.muayeneVeBakımToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.muayeneVeBakımToolStripMenuItem.Text = "Muayene ve Bakım";
+            // 
+            // periyodikBakımToolStripMenuItem
+            // 
+            this.periyodikBakımToolStripMenuItem.Name = "periyodikBakımToolStripMenuItem";
+            this.periyodikBakımToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.periyodikBakımToolStripMenuItem.Text = "Periyodik Bakım";
+            // 
+            // kışBakımıToolStripMenuItem
+            // 
+            this.kışBakımıToolStripMenuItem.Name = "kışBakımıToolStripMenuItem";
+            this.kışBakımıToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.kışBakımıToolStripMenuItem.Text = "Kış Bakımı";
+            // 
+            // baharBakımıToolStripMenuItem
+            // 
+            this.baharBakımıToolStripMenuItem.Name = "baharBakımıToolStripMenuItem";
+            this.baharBakımıToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.baharBakımıToolStripMenuItem.Text = "Bahar Bakımı";
+            // 
+            // klimaToolStripMenuItem
+            // 
+            this.klimaToolStripMenuItem.Name = "klimaToolStripMenuItem";
+            this.klimaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.klimaToolStripMenuItem.Text = "Klima";
+            // 
+            // motorToolStripMenuItem
+            // 
+            this.motorToolStripMenuItem.Name = "motorToolStripMenuItem";
+            this.motorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.motorToolStripMenuItem.Text = "Motor";
+            // 
+            // frenToolStripMenuItem
+            // 
+            this.frenToolStripMenuItem.Name = "frenToolStripMenuItem";
+            this.frenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.frenToolStripMenuItem.Text = "Fren";
+            // 
+            // lastikToolStripMenuItem
+            // 
+            this.lastikToolStripMenuItem.Name = "lastikToolStripMenuItem";
+            this.lastikToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.lastikToolStripMenuItem.Text = "Lastik";
+            // 
             // AnaSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -263,19 +272,20 @@
         private System.Windows.Forms.ToolStripMenuItem kampanyalarımızToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hakkımızddaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem iletişimToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bakımVeMuayeneToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ToolStripMenuItem uyeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem muayeneVeBakımToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem periyodikBakımToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem baharBakımıToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kışBakımıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aküToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem baharBakımıToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem klimaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem motorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem frenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lastikToolStripMenuItem;
+        public System.Windows.Forms.Label label1;
     }
 }
